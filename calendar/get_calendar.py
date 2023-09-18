@@ -1,7 +1,12 @@
 from icalevents.icalevents import events
 
-events = events("https://calendar.google.com/calendar/ical/jo-bell%40live.co.uk/"
-                "private-1663142b1daf9a471001bf725ef93324/basic.ics")
+ev_list = events(file="basic.ics", sort=True)
 
-for individual_event in events:
-    print(individual_event.summary, individual_event.start, individual_event.end)
+for individual_event in ev_list:
+    start = individual_event.start
+
+    print(individual_event.summary)
+    print(individual_event.start)
+    print(individual_event.end)
+    print()
+    
