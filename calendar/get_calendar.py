@@ -11,9 +11,9 @@ def get_events():
     for individual_event in ev_list:
         event_title = individual_event.summary
         start = individual_event.start
-        st_time = start.strftime("Start:  %A %d %B, %H:%M")
+        st_time = start.strftime("%A %d %B, %H:%M")
         end = individual_event.end
-        end_time = end.strftime("End:  %A %d %B, %H:%M")
+        end_time = end.strftime("%A %d %B, %H:%M")
         items.append([event_title, st_time, end_time])
     return items
 

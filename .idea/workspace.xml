@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b8ba6a2-d11d-43ca-85f5-0d3653243eca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/calendar/templates/calendar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calendar/templates/table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calendar/testing_tables.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calendar/get_calendar.py" beforeDir="false" afterPath="$PROJECT_DIR$/calendar/get_calendar.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calendar/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/calendar/templates/base.html" afterDir="false" />
@@ -48,7 +49,7 @@
       <recent name="C:\Users\jo-be\GitHub\family calendar\calendar" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.get_calendar">
+  <component name="RunManager" selected="Python.testing_tables">
     <configuration name="get_calendar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="family calendar" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,8 +92,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="testing_tables" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="family calendar" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/calendar" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/calendar/testing_tables.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.testing_tables" />
         <item itemvalue="Python.get_calendar" />
         <item itemvalue="Python.hello" />
       </list>
