@@ -1,5 +1,4 @@
 from icalevents.icalevents import events
-from datetime import datetime
 from flask import Flask, render_template
 
 app = Flask(__name__)
@@ -22,3 +21,8 @@ def get_events():
 def calendar():
     event_list = get_events()
     return render_template('calendar.html', event_list=event_list)
+
+
+@app.route('/week')
+def week():
+    return render_template('week_to_view.html')
