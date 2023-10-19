@@ -18,9 +18,9 @@ def get_events():
 
 
 @app.route('/')
-def calendar():
+def index():
     event_list = get_events()
-    return render_template('calendar.html', event_list=event_list)
+    return render_template('index.html', event_list=event_list)
 
 
 @app.route('/week')

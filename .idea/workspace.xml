@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b8ba6a2-d11d-43ca-85f5-0d3653243eca" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/calendar/basic.ics" beforeDir="false" afterPath="$PROJECT_DIR$/calendar/basic.ics" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calendar/database.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calendar/get_calendar.py" beforeDir="false" afterPath="$PROJECT_DIR$/calendar/get_calendar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calendar/hello.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/calendar/init_db.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/calendar/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/calendar/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calendar/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/calendar/templates/post.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calendar/templates/calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/calendar/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +48,7 @@
       <recent name="C:\Users\jo-be\GitHub\family calendar" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jo-be\GitHub\family calendar\calendar\templates" />
       <recent name="C:\Users\jo-be\GitHub\family calendar\calendar" />
       <recent name="C:\Users\jo-be\GitHub\family calendar\calendar\static" />
     </key>
